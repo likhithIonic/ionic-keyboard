@@ -3,6 +3,7 @@
   "version": "2.2.0",
   "description": "Ionic Keyboard Plugin",
   "scripts": {
+    "prepare": "echo 'Prepare ran'",
     "release": "standard-version -a",
     "pre-release": "standard-version -a -p --skip.changelog=true --skip.tag=true"
   },
